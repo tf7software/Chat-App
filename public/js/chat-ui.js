@@ -67,7 +67,7 @@ $(function(){
     	$('#chat').append(html);
     }
 
-    $('#send-pm').submit(function(e){
+    $('#send-pm').submit(function(e){ //Maps to the Send Private Message Button
     	e.preventDefault();
     	socket.emit('private message', {msg: $('#new-pm').val(), userToPM: userToPM});
     	$('#new-pm').val('');
