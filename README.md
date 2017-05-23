@@ -1,6 +1,6 @@
-nodejs-chat-complete
+Chat-App
 ====================
-This is the completed code for a Hackers @ Berkeley node.js workshop.
+This is an instant Chat Messaging Application using Socket.io, NodeJS, MongoDB and ExpressJS 
 
 Requirements
 ============
